@@ -30,7 +30,7 @@ function FormComponent(props) {
                             onChange={props.handleChange}
                             checked={props.gender === "male"} />
                         Male
-      </label>
+                    </label>
                     <label>
                         <input
                             type="radio"
@@ -39,7 +39,7 @@ function FormComponent(props) {
                             onChange={props.handleChange}
                             checked={props.gender === "female"} />
                         Female
-        </label>
+                    </label>
                 </div>
                 <br />
                 <label id="location">Destination: </label>
